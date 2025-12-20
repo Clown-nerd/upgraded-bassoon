@@ -125,14 +125,14 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
-// ===== NEW INTERACTIVE FEATURES =====
+
 
 // 1. Typing animation for title
 const typeTitle = () => {
   const title = document.querySelector('.info-content .title');
   if (!title) return;
   
-  const roles = ['Software Developer', 'AI Systems Architect', 'Digital Productivity Expert', 'Problem Solver'];
+  const roles = ['Software Developer', 'AI Systems Architect', 'Computer Science Engineer'];
   let roleIndex = 0;
   let charIndex = 0;
   let isDeleting = false;
